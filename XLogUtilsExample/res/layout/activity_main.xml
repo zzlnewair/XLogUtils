@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="12dp">
+
+    <Button
+        android:id="@+id/btn_default_log"
+        style="@style/btn_style"
+        android:text="Default Log" />
+
+    <Button
+        android:id="@+id/btn_json_log"
+        style="@style/btn_style"
+        android:text="Json Log" />
+
+    <Button
+        android:id="@+id/btn_xml_log"
+        style="@style/btn_style"
+        android:text="XML Log" />
+
+    <Button
+        android:id="@+id/btn_big_log"
+        style="@style/btn_style"
+        android:text="Big Log" />
+
+    <Button
+        android:id="@+id/btn_crash"
+        style="@style/btn_style"
+        android:text="Crash Test" />
+    
+    
+
+</LinearLayout>
